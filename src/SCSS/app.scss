@@ -1,7 +1,11 @@
+
+@use 'base/variables' as v;
+
 body {
-     
-     font-family: "Montserrat", sans-serif;
+     font-family: v.$fuente_principal;
      font-optical-sizing: auto;
-     font-weight: <weight>; // <weight>: Use a value from 100 to 900
+     
      font-style: normal;
+     
    }
+
