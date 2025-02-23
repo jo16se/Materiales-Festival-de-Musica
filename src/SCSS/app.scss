@@ -1,11 +1,6 @@
 
-@use 'base/variables' as v;
+// Importing variables
+@forward 'base';
 
-body {
-     font-family: v.$fuente_principal;
-     font-optical-sizing: auto;
-     
-     font-style: normal;
-     
-   }
+@forward 'layout';
 

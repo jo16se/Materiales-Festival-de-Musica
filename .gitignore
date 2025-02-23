@@ -33,6 +33,9 @@ Temporary Items
 ### macOS Patch ###
 # iCloud generated files
 *.icloud
+#Google Drive generated files
+*.gdrive
+
 
 ### VisualStudioCode ###
 .vscode/*
